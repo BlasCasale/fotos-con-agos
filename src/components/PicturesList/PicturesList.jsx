@@ -14,7 +14,7 @@ const PicturesList = ({ photos }) => {
   return (
     <>
         <ArrowLeft handlePrev={handlePrev}/>
-        {photos && (<img src={`./public/${photos[index]}`} alt="Amor" className='img' />)}
+        {photos && (<img src={`/${photos[index]}`} alt="Amor" className='img' />)}
         <ArrowRigth handleNext={handleNext}/>
     </>
   );

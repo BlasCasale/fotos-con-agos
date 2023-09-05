@@ -12,9 +12,12 @@ const App = () => {
 
     const returnedInput = () => {
         return (
-            <section className="input-container">
+            <section className="answer-container">
                 <h1>¿A qué comida somos adictos?</h1>
-                <input type="text" value={input} onChange={(e) => setInput(e.target.value)} />
+                <div className="input-container">
+                    <label htmlFor="answer">Responde aca:</label>
+                    <input type="text" id="answer" value={input} onChange={(e) => setInput(e.target.value)} />
+                </div>
             </section>
         );
     };

@@ -12,6 +12,28 @@ ul li {
   list-style: none;
 }
 
+h1 {
+  background-color: #ccc;
+  color: #403F4C;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+label {
+  background-color: #ccc;
+  color: #403F4C;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+input {
+  border: solid 2px #403F4C;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 20px;
+}
+
 h2 {
   text-align: center;
   color: #403F4C;
@@ -25,14 +47,14 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./public/vivaLaVida.jpg');
+  background-image: url('/vivaLaVida.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.input-container {
+.answer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,6 +63,13 @@ h2 {
   height: 100vh;
 }
 
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 button {
   background-color: transparent;
   border: none;

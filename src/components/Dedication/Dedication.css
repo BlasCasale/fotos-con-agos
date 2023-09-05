@@ -1,0 +1,29 @@
+article {
+    background: linear-gradient(90deg, rgba(142,28,190,1) 17%, rgba(228,14,119,1) 86%);
+}
+p {
+    color: #ccc;
+}
+strong {
+    color: #ccc;
+}
+
+@media (650px >= width) {
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+@media (651px <= width) {
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}

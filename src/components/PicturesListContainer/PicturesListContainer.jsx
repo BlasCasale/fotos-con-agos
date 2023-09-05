@@ -2,6 +2,7 @@ import React from 'react';
 import useGetAllPictures from '../../hooks/useGetAllPictures';
 import PicturesList from '../PicturesList/PicturesList';
 import './PicturesListContainer.css';
+import Dedication from '../Dedication/Dedication';
 
 const PicturesListContainer = () => {
   const photos = useGetAllPictures();
@@ -36,6 +37,8 @@ const PicturesListContainer = () => {
           {photos && <PicturesList photos={rio} />}
         </div>
       </section>
+
+      <Dedication/>
     </main>
   );
 };
